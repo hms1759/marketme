@@ -1,0 +1,286 @@
+.dash_container {
+    width: 100vw;
+    height: 100vh;
+overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.dash_sub_container {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash_sub_content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 30%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.profile_update {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dash_sub_content_2 {
+    width: 70%;
+    border: 1px solid black;
+    height: 100vh;
+    background-color: rgba(243, 238, 248, 0.968);
+}
+
+.sub_content1_name {
+    margin: 10px;
+    border-radius: 10px 10px 10px 0px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_profile {
+    position: relative;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub_content1 {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub_content1>img {
+    height: 200px;
+    width: 100px;
+    border-radius: 50%;
+    overflow-y: hidden;
+}
+
+.dash_sub_2_up {
+    height: 25%;
+    padding: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash_sub {
+    height: 100%;
+}
+
+.sub_2 {
+    height: 100px;
+    border-radius: 10px;
+    width: 47%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.up {
+    background-color: rgb(170, 97, 244);
+}
+
+.down {
+    background-color: rgb(221, 201, 241);
+}
+
+.dash_sub_2_down {
+    width: 100%;
+    height: 75%;
+    background-color: rgb(207, 171, 243);
+}
+
+.upload_dialog {
+    height: 80vh;
+    width: 100%;
+}
+
+.upload_banner {
+    width: 100%;
+    height: 9rem;
+    border: 1px solid black;
+}
+
+.sub_upload_aboutus_img {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.upload_aboutus_img {
+    width: 100%;
+    height: 100px;
+
+    border: 1px solid black;
+}
+
+.aboutus_img_half {
+    width: 47%;
+}
+
+.aboutus_img {
+    width: 100%;
+    height: 100%;
+}
+
+.service_upload_img {
+    margin: 10px 0px;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.upload_Service_img {
+    width: 23%;
+    height: 90%;
+    border: 1px solid black;
+}
+
+.Service_img {
+    width: 100%;
+    height: 100%;
+}
+
+.sub_1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.text_upload {
+    width: 50%;
+}
+
+.log_form_ui_form {
+    width: 100%;
+}
+
+.form_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_control1 {
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    padding: 20px 10px;
+    background-color: white;
+    border: solid gray 1px !important;
+}
+
+.sociaL_HEAD {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 764px) {
+    .dash_sub_container {
+        width: 100%;
+    }
+
+    .sub_content1_name {
+        font-size: 14px;
+        border-radius: 7px 7px 7px 0px;
+        padding: 7px;
+        margin: 7px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sub_2 {
+        height: 60px;
+    }
+
+    .sub_profile {
+        font-size: 14px;
+    }
+
+    .dash_sub_2_down {
+        height: 80%;
+    }
+
+    .dash_sub_2_up {
+        padding: 15px;
+        height: 20%;
+        align-items: center;
+    }
+
+    .sub_content1 {
+        height: 150px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .sub_content1>img {
+        height: 150px;
+        width: 100px;
+    }
+
+    .sub_content1_name {
+        font-size: 12px;
+        border-radius: 5px 5px 5px 0px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .dash_sub_container {
+        flex-direction: column;
+    }
+    .dash_sub_content1 {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 10px;
+        width: 100%;
+        height: 35%;
+    }
+    .sub_content1{
+       margin-bottom: 0px; 
+    }
+    .dash_sub_content_2 {
+        width: 100%;
+        height: 65%;
+    }
+    .sub_profile{
+        padding: 0px;
+        font-size: 14px;
+    }
+.dash_sub{
+    width: 60%;
+
+}    .form_row{
+        flex-direction:column ;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .dash_sub{
+        width: 40%;
+        margin-top: 20px;
+    } 
+    .sub_content1_name{
+        border: 0px;
+        margin: 0px;
+        padding: 3px;
+    }
+    .profile_update{
+        width: 70%;
+    }
+   
+}
